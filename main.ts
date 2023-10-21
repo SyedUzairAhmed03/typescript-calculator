@@ -2,7 +2,7 @@
 
 import inquirer from "inquirer";
 
-for (let i = 0; i < 4;) {
+for (let i = 0; i  4;) {
     let answer = await inquirer.prompt([{
             message: "enter your first number",
             type: "number",
